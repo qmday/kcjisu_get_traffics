@@ -28,6 +28,7 @@ class User:
         }
         res = self.session.post(url=login_url, data=login_data, headers=headers)
         print(res.json())
+        print(self.domain)
         return res
 
     def get_traffic(self):
