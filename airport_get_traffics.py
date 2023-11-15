@@ -50,7 +50,7 @@ def main():
     )
     user.login()
     user.get_traffic()
-    print("******************************")
+    print("*****************************")
 
 if __name__ == "__main__":
     main()
